@@ -7,15 +7,18 @@
 }
 
 .header button {
-  color: rgb(15, 13, 13);
+  color: rgb(17, 14, 14);
+  background-color: rgba(204, 76, 25, 0.767);
   padding: 10px;
   border-radius: 10px;
   margin-left: 10px;
   cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
 }
 
 .header button:hover {
-  background-color: rgb(204, 75, 25);
+  background-color: rgb(255, 254, 254);
 }
 
 .header h1 {
