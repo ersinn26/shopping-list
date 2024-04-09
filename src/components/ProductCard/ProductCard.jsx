@@ -1,14 +1,14 @@
 import React from "react";
-
+import "./ProductCard.css";
 const ProductCard = ({ products }) => {
   return (
-    <div>
+    <div className="product-card-container">
       {products.map((product, id) => (
         <div className="card-container" key={product.id}>
           <div className="card">
-            <img width="200px" src={product.image} alt="" />
+            <img src={product.image} alt="" />
             <h4>{product.title}</h4>
-            <p>Fiyat:{product.price}$</p>
+            <p>{product.price}$</p>
           </div>
         </div>
       ))}

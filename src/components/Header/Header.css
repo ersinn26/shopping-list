@@ -1,0 +1,28 @@
+.header {
+  text-align: center;
+  padding: 20px;
+}
+.header-button {
+  display: inline-block;
+}
+
+.header button {
+  color: rgb(15, 13, 13);
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background-color: rgb(204, 75, 25);
+}
+
+.header h1 {
+  margin-bottom: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  color: rgb(204, 75, 25);
+}
+
+
